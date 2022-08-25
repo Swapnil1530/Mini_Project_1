@@ -1,0 +1,37 @@
+*{
+    font-family: arial,sens-serif;
+}
+.nav{
+    display: block;
+}
+.Tutorial,.Paper {
+   color:white;
+   font-size: 20px; 
+   background-color: rgb(111, 122, 205);
+   border-radius:5px;
+   width: 20px;
+   padding: 4px;
+   padding-left: 10px;
+   padding-right: 10px;
+   border: 2px solid black;
+}
+.Tutorial_section{
+    margin-top:30px;
+}
+.navbar-default .navbar-nav > li > a{
+    color:black !important;
+    font-size: 15px !important;
+}
+.tlcolor {
+    background-color: #f9f9f9 !important;
+    box-shadow: 0 3px 6px -2px rgba(0,0,0,.3);
+    border-top: 1px solid #e0e0e0;
+}
+
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}

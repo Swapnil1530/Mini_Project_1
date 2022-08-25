@@ -1,0 +1,94 @@
+@import url("Custom/_Utility.css"); /* Using a url */
+
+
+/* Placement Image Logo */
+.stdPlacementImageLogo {
+    max-width: 100% !important;
+    max-height: 100px;
+    width: auto !important;
+}
+
+/* Add here all your css styles (customizations) */
+
+
+/* End Utilities ----------------------------------------- */
+/* Media-Queries ----------------------------------------- */
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1440px;
+        padding-right: 2rem;
+        padding-left: 2rem;
+    }
+}
+
+/* End Media-Queries ----------------------------------------- */
+/* Home Page ----------------------------------------- */
+.li-item-home-mobile-app {
+    width: 10.4rem;
+}
+
+#tbl-home-placement-summary > tbody > tr:first-child > td {
+    border-top: 1px solid #dee2e6;
+}
+
+#tbl-home-placement-summary > tbody > tr:last-child > td {
+    border-bottom: 1px solid #dee2e6;
+}
+
+@media (max-width: 576px) {
+    .card-home-placed-student {
+        max-width: 240px;
+        margin: 0 auto;
+    }
+}
+
+/* End Home Page ----------------------------------------- */
+/* Heading ----------------------------------------- */
+.d-heading-v1 {
+    border-bottom: 1px dotted #ccc;
+}
+
+.d-heading-v1__title {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    margin: 0;
+    padding-bottom: 0.4rem;
+    border-left: 2px solid #555;
+    font-weight: 600;
+    color: #333;
+}
+
+/* End Heading ----------------------------------------- */
+/* Link ----------------------------------------- */
+.d-link,
+.d-link:visited {
+    text-decoration: underline;
+    color: #000;
+    font-weight: 600;
+}
+
+    .d-link:hover {
+        text-decoration: none;
+        color: #72c02c;
+    }
+
+/* End Link ----------------------------------------- */
+/* Sticky Block ----------------------------------------- */
+.d-stickyblock-faculty-profile {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 72px;
+}
+
+/* End Sticky Block ----------------------------------------- */
+/* Page Level ----------------------------------------- */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .d-timeline-faculty-experience::before {
+        display: none !important;
+    }
+}
+
+/* End Page Level ----------------------------------------- */
+/* Section ----------------------------------------- */
+/* End Section ----------------------------------------- */
