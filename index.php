@@ -22,7 +22,7 @@ include "./Connection/connection_test.php"; ?>
 	</div>
 	<div class="wrapper">
 		<div class="form_container">
-			<form action="login.php" method="POST">
+			<form action="" method="POST">
 				<div class="heading">
 					<h2>Login</h2>
 				</div>
